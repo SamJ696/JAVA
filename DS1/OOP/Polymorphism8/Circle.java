@@ -1,0 +1,14 @@
+package com.DS1.OOP.Polymorphism8;
+
+public class Circle extends Shapes{
+
+    // THIS WILL RUN WHEN OBJ OF CIRCLE IS CREATED.
+    // HENCE, IT IS OVERRIDING THE PARENT METHOD.
+    @Override  // THIS IS CALLED ANNOTATION.
+    // IF WE WANT TO CHECK IF METHOD IS OVERRIDDEN OR NOR THEN ADD OVERRIDE ABOVE IT.
+    void area () {
+        System.out.println("Area is pi*radius^2");
+    }
+}
+
+// @OVERRIDE DETERMINES WHETHER THE FUNCTION IS OVERRIDDEN OR NOT FROM ITS SUPERCLASS ONLY.
